@@ -1,0 +1,143 @@
+.basket {
+    padding: 40px;
+}
+
+@media (max-width: 750px) {
+    .basket {
+        padding: 20px;
+    }
+}
+
+.basket > h1 {
+    color: rgb(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+}
+
+.basket-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.basket-header-right-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.basket-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.basket-card-img-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.basket-card-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.basket-card-price > p {
+    background-color: var(--gray-color--);
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.basket-card-price-plus-minus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    padding: 5px 10px;
+    background-color: var(--gray-color--);
+    width: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.basket-card-price {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.basket-card-skyblue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--skyblue-color--);
+    padding: 45px 30px;
+}
+
+.basket-card-pink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--pink-color--);
+    padding: 45px 30px;
+}
+
+.all-price-btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.all-price-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: max-content;
+}
+
+.all-price-btn > h3 {
+    color: rgb(0, 0, 0, 0.75);
+}
+
+.price-btn {
+    background-color: var(--pink-color--);
+    border: none;
+    color: rgb(0, 0, 0, 0.6);
+    font-family: InterBold;
+    padding: 7px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 625px) {
+    .basket-card-img-name {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 600px) {
+    .basket-header-right-part {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .basket-card-price {
+        flex-direction: column;
+        gap: 10px;
+        align-items: end;
+    }
+}
+}

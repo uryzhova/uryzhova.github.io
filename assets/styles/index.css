@@ -1,0 +1,146 @@
+.mini-catalog-items {
+    padding: 40px;
+}
+
+@media (max-width: 750px) {
+    .mini-catalog-items {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.catalog-sales-hits-container,
+.catalog-new-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.catalog-sales-hits-card-pink,
+.catalog-sales-hits-card-skyblue,
+.catalog-new-card-pink,
+.catalog-new-card-skyblue {
+    background-color: var(--pink-color--);
+    border-radius: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 18px 22px 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    transition: box-shadow 0.2s, transform 0.2s;
+    margin: 0;
+}
+
+.catalog-sales-hits-card-skyblue,
+.catalog-new-card-skyblue {
+    background-color: var(--skyblue-color--);
+}
+
+.catalog-sales-hits-card-img,
+.catalog-new-card-img {
+    width: 60px;
+    height: 80px;
+    object-fit: contain;
+    margin: 0 auto 18px auto;
+    display: block;
+}
+
+.catalog-sales-hits-card-pink p,
+.catalog-sales-hits-card-skyblue p,
+.catalog-new-card-pink p,
+.catalog-new-card-skyblue p {
+    font-size: 16px;
+    color: var(--black-color--);
+    margin: 0 0 10px 0;
+    text-align: center;
+    min-height: 38px;
+    flex: 0 0 auto;
+}
+
+.catalog-sales-hits-card-price-icons,
+.catalog-new-card-price-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+    margin-top: auto;
+    gap: 24px;
+}
+
+.catalog-sales-hits-card-price-icons > h4,
+.catalog-new-card-price-icons > h4 {
+    font-size: 22px;
+    font-family: InterBold;
+    color: var(--black-color--);
+    margin: 0;
+    min-width: 80px;
+    text-align: left;
+}
+
+.catalog-sales-hits-card-icons,
+.catalog-new-card-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.catalog-sales-hits > h3,
+.catalog-new > h3 {
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: InterBold;
+    text-align: center;
+}
+
+.about {
+    background-color: var(--pink-color--);
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin: 40px 0 40px 0;
+}
+
+.about-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.about-mission {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 1.5;
+}
+
+.about > h3 {
+    font-family: InterBold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-mission > p {
+    font-size: 18px;
+}
+
+.about-mission > p > b {
+    font-size: 20px;
+    font-family: InterBold;
+}
+
+.about-img > img {
+    max-width: 360px;
+    border-radius: 10px;
+}

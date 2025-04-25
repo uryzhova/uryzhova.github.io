@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Inter;
+  src: url(/assets/media/fonts/Inter-Regular.otf);
+}
+
+@font-face {
+  font-family: InterBold;
+  src: url(/assets/media/fonts/Inter-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Inter;
+    list-style-type: none;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Шапка, контент, футер */
+}
+
+
+a {
+    color: var(--black-color--);
+}
+
+:root {
+  --pink-color--: #FFD7DF;
+  --darkpink-color--: #FFC9D4;
+  --skyblue-color--: #E3EBEC;
+  --pink2-color--: #D4919F;
+  --white-color--: #ffffff;
+  --black-color--: #000000;
+  --lightskyblue-color--: #CFE3E5;
+  --gray-color--: #DCDCDC;
+}
+
+.text-gray-color {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.product-img {
+  height: max-content;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/all.css">
+    <link rel="stylesheet" href="./assets/styles/header-footer.css">
+    <link rel="stylesheet" href="./assets/styles/register.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <div class="header-first-part">
+            <div class="header-first-part-location">
+                <p>Ваш город: <b>Чебоксары</b></p>
+            </div>
+            <div class="header-first-part-links">
+                <a class="header-first-part-links-item" href="profile.html"><img class="header-first-part-links-profile" src="./assets/media/img/header-profile-icon.png" width="25px"></a>
+                <a class="header-first-part-links-item" href="login.html">Войти</a>
+                <a class="header-first-part-links-item">|</a>
+                <a class="header-first-part-links-item" href="register.html">Регистрация</a>
+            </div>
+        </div>
+
+        <div class="header-nav-part">
+            <div class="header-nav-part-site-name"><a href="index.html"><b>ЭКОКРАСА</b></a></div>
+            <nav class="header-nav-part-site-link-items">
+                <a href="#"><li class="header-nav-part-site-link-items-items">О НАС</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">БРЕНДЫ</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">ДОСТАВКА</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">ОПЛАТА</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">КОНТАКТЫ</li></a>
+            </nav>
+
+            <label class="burger" for="burger">
+                <input type="checkbox" id="burger">
+                <span class="burger-icon top"></span>
+                <span class="burger-icon middle"></span>
+                <span class="burger-icon bottom"></span>
+        
+                <!-- Мобильное меню -->
+                <nav class="mobile-nav">
+                    <ul class="mobile-links">
+                        <li><a href="catalog.html">О НАС</a></li>
+                        <li><a href="contacts.html">БРЕНДЫ</a></li>
+                        <li><a href="index.html#about-info">ДОСТАВКА</a></li>
+                        <li><a href="basket.html">ОПЛАТА</a></li>
+                        <li><a href="profile.html">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+            </label>
+        </div>
+
+        <div class="header-second-part">
+            <div class="header-second-part-catalog-link"><a href="catalog.html"><p>ВСЕ ТОВАРЫ</p></a></div>
+
+            <div class="header-second-part-search">
+                <input type="text" class="header-second-part-search-input" placeholder="Поиск">
+                <span class="header-second-part-search-icon"><img src="./assets/media/img/header-search-icon.png" width="30px"></span>
+            </div>
+
+            <div class="header-second-part-icon-links">
+                    <a href="#"><img class="header-second-part-icon-links-img" src="./assets/media/img/header-heart-icon.png" width="40px"></a>
+                    <a href="basket.html"><div class="header-second-part-icon-links-basket">
+                        <img class="header-second-part-icon-links-img" src="./assets/media/img/header-basket-icon.png" width="40px">
+                        <div class="header-second-part-icon-links-basket-text">
+                            <b>КОРЗИНА</b>
+                            <p>пусто</p>
+                        </div>
+                    </div></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="reg-log">
+            <h1>РЕГИСТРАЦИЯ</h1>
+            <a href="login.html"><h3>У меня уже есть учетная запись</h3></a>
+            <div class="reg-log-main-group">
+                <div class="reg-log-inputs">
+                    <input class="reg-log-input" type="text" placeholder="Имя">
+                    <input class="reg-log-input" type="text" placeholder="Фамилия">
+                    <input class="reg-log-input" type="email" placeholder="Email">
+                    <input class="reg-log-input" type="phone" placeholder="Контактный телефон">
+                    <input class="reg-log-input" type="password" placeholder="Пароль">
+                    <button class="reg-log-btn" type="submit">РЕГИСТРИРОВАТЬСЯ</button>
+                </div>
+
+                <div class="reg-log-add-info">
+                    <h3>Зачем нужна регистрация?</h3>
+                    <p>Зарегистрировавшись на сайте Вы
+                        сможете получить личный кабинет,
+                        что позволит Вам отслеживать
+                        историю заказов, быстрее
+                        оформлять заказы в нашем
+                        Интернет магазине</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-card">
+                <h4>КАТЕГОРИИ</h4>
+                <div class="footer-card-items">
+                    <a class="footer-card-items-item" href="#">Для волос</a>
+                    <a class="footer-card-items-item" href="#">Для лица</a>
+                    <a class="footer-card-items-item" href="#">Для тела</a>
+                    <a class="footer-card-items-item" href="#">Для детей</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h4>ИНФОРМАЦИЯ</h4>
+                <div class="footer-card-items">
+                    <a class="footer-card-items-item" href="#">О магазине</a>
+                    <a class="footer-card-items-item" href="#">Бренды</a>
+                    <a class="footer-card-items-item" href="#">Доставка</a>
+                    <a class="footer-card-items-item" href="#">Оплата</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h4>ЛИЧНЫЙ КАБИНЕТ</h4>
+                <div class="footer-card-items">
+                    <a class="footer-card-items-item" href="#">Общая информация</a>
+                    <a class="footer-card-items-item" href="#">Адресная книга</a>
+                    <a class="footer-card-items-item" href="#">История заказов</a>
+                    <a class="footer-card-items-item" href="#">Смена пароля</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h4>МЫ В СОЦСЕТЯХ</h4>
+                <div class="footer-card-items-social">
+                    <a class="footer-card-items-item-social" href="https://vk.com"><img src="./assets/media/img/footer-vk-icon.png" width="55px">Вконтакте</a>
+                    <a class="footer-card-items-item-social" href="https://web.telegram.org"><img src="./assets/media/img/footer-telegram-icon.png" width="55px">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

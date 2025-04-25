@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/all.css">
+    <link rel="stylesheet" href="./assets/styles/header-footer.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <div class="header-first-part">
+            <div class="header-first-part-location">
+                <p>Ваш город: <b>Чебоксары</b></p>
+            </div>
+            <div class="header-first-part-links">
+                <a class="header-first-part-links-item" href="profile.html"><img class="header-first-part-links-profile" src="./assets/media/img/header-profile-icon.png" width="25px"></a>
+                <a class="header-first-part-links-item" href="login.html">Войти</a>
+                <a class="header-first-part-links-item">|</a>
+                <a class="header-first-part-links-item" href="register.html">Регистрация</a>
+            </div>
+        </div>
+
+        <div class="header-nav-part">
+            <div class="header-nav-part-site-name"><a href="index.html"><b>ЭКОКРАСА</b></a></div>
+            <nav class="header-nav-part-site-link-items">
+                <a href="#"><li class="header-nav-part-site-link-items-items">О НАС</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">БРЕНДЫ</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">ДОСТАВКА</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">ОПЛАТА</li></a>
+                <a href="#"><li class="header-nav-part-site-link-items-items">КОНТАКТЫ</li></a>
+            </nav>
+
+            <label class="burger" for="burger">
+                <input type="checkbox" id="burger">
+                <span class="burger-icon top"></span>
+                <span class="burger-icon middle"></span>
+                <span class="burger-icon bottom"></span>
+        
+                <!-- Мобильное меню -->
+                <nav class="mobile-nav">
+                    <ul class="mobile-links">
+                        <li><a href="catalog.html">О НАС</a></li>
+                        <li><a href="contacts.html">БРЕНДЫ</a></li>
+                        <li><a href="index.html#about-info">ДОСТАВКА</a></li>
+                        <li><a href="basket.html">ОПЛАТА</a></li>
+                        <li><a href="profile.html">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+            </label>
+        </div>
+        
+        <div class="index-banner">
+            <h1>ДАРИМ ЭМОЦИИ СВОИМ ЛЮБИМЫМ</h1>
+        </div>
+
+        <div class="header-second-part">
+            <div class="header-second-part-catalog-link"><a href="catalog.html"><p>ВСЕ ТОВАРЫ</p></a></div>
+
+            <div class="header-second-part-search">
+                <input type="text" class="header-second-part-search-input" placeholder="Поиск">
+                <span class="header-second-part-search-icon"><img src="./assets/media/img/header-search-icon.png" width="30px"></span>
+            </div>
+
+            <div class="header-second-part-icon-links">
+                    <a href="#"><img class="header-second-part-icon-links-img" src="./assets/media/img/header-heart-icon.png" width="40px"></a>
+                    <a href="basket.html"><div class="header-second-part-icon-links-basket">
+                        <img class="header-second-part-icon-links-img" src="./assets/media/img/header-basket-icon.png" width="40px">
+                        <div class="header-second-part-icon-links-basket-text">
+                            <b>КОРЗИНА</b>
+                            <p>пусто</p>
+                        </div>
+                    </div></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="mini-catalog-items">
+            <h2>Каталог товара</h2>
+            <div class="catalog-sales-hits">
+                <h3 class="text-gray-color">ХИТЫ ПРОДАЖ</h3>
+                <div class="catalog-sales-hits-container">
+                    <div class="catalog-sales-hits-card-pink">
+                        <a class="product-img" href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/serum.png"></a>
+                        <p class="card-name">Cыворотка, 30мл</p>
+                        <div class="catalog-sales-hits-card-price-icons">
+                            <h4>2 564 руб.</h4>
+                            <div class="catalog-sales-hits-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-sales-hits-card-skyblue">
+                        <a class="product-img" href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/product1.png"></a>
+                        <p>Гидролат розы, 150мл</p>
+                        <div class="catalog-sales-hits-card-price-icons">
+                            <h4>570 руб.</h4>
+                            <div class="catalog-sales-hits-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-sales-hits-card-pink">
+                        <a class="product-img" href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/eyecream.png"></a>
+                        <p>Детское масло, 150мл</p>
+                        <div class="catalog-sales-hits-card-price-icons">
+                            <h4>1 001 руб.</h4>
+                            <div class="catalog-sales-hits-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-sales-hits-card-skyblue">
+                        <a href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/tonic.png"></a>
+                        <p>Охлаждающий тоник, 150мл</p>
+                        <div class="catalog-sales-hits-card-price-icons">
+                            <h4>1 680 руб.</h4>
+                            <div class="catalog-sales-hits-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="catalog-new">
+                <h3 class="text-gray-color">НОВИНКИ</h3>
+                <div class="catalog-new-container">
+                    <div class="catalog-new-card-pink">
+                        <a href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/oil.png"></a>
+                        <p>Термальная вода, 100мл</p>
+                        <div class="catalog-new-card-price-icons">
+                            <h4>2 980 руб.</h4>
+                            <div class="catalog-new-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-new-card-skyblue">
+                        <a href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/cream.png"></a>
+                        <p>Гидрофильный бальзам, 42г</p>
+                        <div class="catalog-new-card-price-icons">
+                            <h4>940 руб.</h4>
+                            <div class="catalog-new-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-new-card-pink">
+                        <a href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/lotion.png"></a>
+                        <p>Восстанавливающий крем, 50мл</p>
+                        <div class="catalog-new-card-price-icons">
+                            <h4>1 194 руб.</h4>
+                            <div class="catalog-new-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-new-card-skyblue">
+                        <a href="tovar-information.html"><img class="catalog-sales-hits-card-img" src="./assets/media/img/emulsion.png"></a>
+                        <p>Крем SPF50+, 30мл</p>
+                        <div class="catalog-new-card-price-icons">
+                            <h4>1 014 руб.</h4>
+                            <div class="catalog-new-card-icons">
+                                <img src="./assets/media/img/header-heart-icon.png" width="35px">
+                                <img src="./assets/media/img/header-basket-icon.png" width="35px">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="about">
+                <h3>О нас</h3>
+                <div class="about-group">
+                    <div class="about-mission">
+                        <p><b>Наша миссия</b> — создать интуитивно понятный и привлекательный интерфейс для интернет-магазина косметических средств, который поможет пользователям легко находить и выбирать продукты для ухода за кожей и волосами. Мы стремимся сделать процесс покупки максимально комфортным и информативным, предоставляя пользователям доступ к качественной информации о каждом товаре, а также к отзывам и рекомендациям. Наша цель — вдохновить людей заботиться о себе и находить идеальные решения для их индивидуальных потребностей в уходе.</p>
+                    </div>
+                    <div class="about-img">
+                        <img src="./assets/media/img/about-img.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-card">
+                <h4>КАТЕГОРИИ</h4>
+                <div class="footer-card-items">
+                    <a class="footer-card-items-item" href="#">Для волос</a>
+                    <a class="footer-card-items-item" href="#">Для лица</a>
+                    <a class="footer-card-items-item" href="#">Для тела</a>
+                    <a class="footer-card-items-item" href="#">Для детей</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h4>ИНФОРМАЦИЯ</h4>
+                <div class="footer-card-items">
+                    <a class="footer-card-items-item" href="#">О магазине</a>
+                    <a class="footer-card-items-item" href="#">Бренды</a>
+                    <a class="footer-card-items-item" href="#">Доставка</a>
+                    <a class="footer-card-items-item" href="#">Оплата</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h4>ЛИЧНЫЙ КАБИНЕТ</h4>
+                <div class="footer-card-items">
+                    <a class="footer-card-items-item" href="#">Общая информация</a>
+                    <a class="footer-card-items-item" href="#">Адресная книга</a>
+                    <a class="footer-card-items-item" href="#">История заказов</a>
+                    <a class="footer-card-items-item" href="#">Смена пароля</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h4>МЫ В СОЦСЕТЯХ</h4>
+                <div class="footer-card-items-social">
+                    <a class="footer-card-items-item-social" href="https://vk.com"><img src="./assets/media/img/footer-vk-icon.png" width="55px">Вконтакте</a>
+                    <a class="footer-card-items-item-social" href="https://web.telegram.org"><img src="./assets/media/img/footer-telegram-icon.png" width="55px">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
